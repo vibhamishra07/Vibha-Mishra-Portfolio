@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Gemunu+Libre:wght@200&family=Love+Light&family=M+PLUS+2:wght@300&family=Montserrat:wght@300&family=My+Soul&family=Raleway:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --fontfamily1: 'Ballet', cursive;
+  --fontfamily2: 'Gemunu Libre', sans-serif;
+  --fontfamily3: 'Love Light', cursive;
+  --fontfamily4: 'M PLUS 2', sans-serif;
+  --fontfamily5: 'My Soul', cursive;
+  letter-spacing: 0.1rem;
+}
+html{
+  font-size: 70%;
+}
+body{
+  font-family: 'M PLUS 2', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: hsl(213, 86%, 9%);
+  /* height: fit-content; */
+  /* height: fit-content; */
+  overflow-x: hidden;
+}
+body>div{
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+.footer-box{
+  float: right;
+  width: 60%;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  /* background-color: rgb(5, 24, 24); */
+}
+.footer-div{
+  width: 100%;
+  /* position: absolute; */
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  font-size: 1.2rem;
+  /* margin-top: 4rem; */
+  /* padding: 4rem 0 3rem 0; */
+  /* word-spacing: 1.2rem; */
+  /* background-color: hsl(213, 75%, 14%); */
+  color: white;
+}
+@media only screen  and (max-width:900px){
+  .footer-box{
+    width: 100%;
+    background-color: hsl(213, 75%, 14%);
+  }
+  
+}

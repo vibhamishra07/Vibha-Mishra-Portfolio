@@ -1,0 +1,94 @@
+.education-box{
+    width: 60%;
+    /* padding-bottom: 1rem; */
+    padding-top: 1rem;
+    min-height: 100vh;
+    max-height: max-content;
+   position: relative;
+   float: right;
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: center;
+   /* background-color: rgb(238, 255, 0); */
+   /* background-color: black; */
+   background-color:hsl(213, 86%, 9%);
+}
+.edu{
+    width: 90%;
+    /* height: 90vh; */
+    /* padding-bottom: 5rem; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edu-title{
+    text-align: center;
+    font-size: 5rem;
+    color: aqua;
+    margin-top: 2rem;
+}
+.edu-details{
+    /* overflow: hidden; */
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+    grid-template-rows: repeat(2, 1fr);
+    background-color: transparent;
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width:1800px){
+   .edu-details{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+   }
+}
+@media only screen and (min-width:1500px){
+    .edu-details{
+        width: 80%;
+        row-gap: 5rem;
+    }
+    .center-div{
+        height: fit-content;
+    }
+}
+@media only screen and (max-width: 900px){
+    .education-box{
+        /* min-height: max-content; */
+        min-height: max-content;
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+    .center-div{
+        height: fit-content;
+    }
+    .edu-title{
+        margin-top: 2rem;
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 900px){
+    .edu-details{
+        width: 90%;
+        row-gap: 1.5rem;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .education-box{
+        margin-bottom: 2rem;
+    }
+}
+

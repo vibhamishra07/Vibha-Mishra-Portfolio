@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Vibha-Mishra-Portfolio/static/css/main.56ae0737.css",
-    "main.js": "/Vibha-Mishra-Portfolio/static/js/main.3e4a94a9.js",
+    "main.css": "/Vibha-Mishra-Portfolio/static/css/main.5962aa1c.css",
+    "main.js": "/Vibha-Mishra-Portfolio/static/js/main.6545da7c.js",
     "static/media/image2.png": "/Vibha-Mishra-Portfolio/static/media/image2.8d2f30c4def975bf0572.png",
     "index.html": "/Vibha-Mishra-Portfolio/index.html",
-    "main.56ae0737.css.map": "/Vibha-Mishra-Portfolio/static/css/main.56ae0737.css.map",
-    "main.3e4a94a9.js.map": "/Vibha-Mishra-Portfolio/static/js/main.3e4a94a9.js.map"
+    "main.5962aa1c.css.map": "/Vibha-Mishra-Portfolio/static/css/main.5962aa1c.css.map",
+    "main.6545da7c.js.map": "/Vibha-Mishra-Portfolio/static/js/main.6545da7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.56ae0737.css",
-    "static/js/main.3e4a94a9.js"
+    "static/css/main.5962aa1c.css",
+    "static/js/main.6545da7c.js"
   ]
 }

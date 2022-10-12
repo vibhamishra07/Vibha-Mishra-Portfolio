@@ -26,10 +26,9 @@
 .form-container{
     padding-top: 4rem;
     width: 90%;
-    flex-direction: column;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .form-box{
     width: 70%;

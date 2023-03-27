@@ -5,6 +5,22 @@ import ProgressBar from "./ProgressBar";
 const Skills =()=>{
     const progressReport=[
         {
+            skillName: "Mongodb",
+            percent:"70",
+        },
+        {
+            skillName: "ReactJs",
+            percent:"90",
+        },
+        {
+            skillName: "Node Js",
+            percent:"80",
+        },
+        {
+            skillName: "Express Js",
+            percent:"80",
+        },
+        {
             skillName: "HTML",
             percent:"90",
         },
@@ -15,10 +31,6 @@ const Skills =()=>{
         {
             skillName: "JavaScript",
             percent:"75",
-        },
-        {
-            skillName: "ReactJs",
-            percent:"70",
         },
         {
             skillName: "C++",

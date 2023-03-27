@@ -8,6 +8,7 @@ import Education from "./Pages/Education";
 import Skills from "./Pages/Skills";
 import Profiles from "./Pages/Profiles";
 import Contact from "./Pages/Contact";
+import ScrollArrow from "./ScrollToTop";
 
 const App = () => {
     return (
@@ -25,6 +26,7 @@ const App = () => {
               <span>&#169;</span> Copyright{"  <"}Vibha Mishra{"> 2022"}
             </div>
         </div>
+        <ScrollArrow/>
       </>
     );
 }

@@ -15,7 +15,7 @@ export default function Main() {
           <div className="learn-box">
             <div className="learn">
               <div className="learning">Web Developer</div>
-              <div className="learning">React Developer</div>
+              <div className="learning">MERN Developer</div>
               <div className="learning">DSA Learner</div>
               <div className="learning">CP Enthusiast</div>
             </div>

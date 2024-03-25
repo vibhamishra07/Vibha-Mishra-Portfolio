@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Vibha-Mishra-Portfolio/static/css/main.5962aa1c.css",
+    "main.js": "/Vibha-Mishra-Portfolio/static/js/main.6384faa2.js",
+    "static/media/image2.png": "/Vibha-Mishra-Portfolio/static/media/image2.8d2f30c4def975bf0572.png",
+    "index.html": "/Vibha-Mishra-Portfolio/index.html",
+    "main.5962aa1c.css.map": "/Vibha-Mishra-Portfolio/static/css/main.5962aa1c.css.map",
+    "main.6384faa2.js.map": "/Vibha-Mishra-Portfolio/static/js/main.6384faa2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5962aa1c.css",
+    "static/js/main.6384faa2.js"
+  ]
+}
